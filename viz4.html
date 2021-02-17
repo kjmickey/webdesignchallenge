@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Visualization 4 # (Something more descriptive later) #</title>
+	<meta name="generator" content="BBEdit 13.5" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- NavBar Stuff -->
+<!-- This is the same on all pages except the visualization pages where the link for the current pages is commented out -->
+<!-- This was probably the hardest part of the exercise and needed to be ironed out early so that all pages had a consistent -->
+<!-- look with a minimum of editing across multiple pages. -->
+     <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+<!-- Needs an href, any HREF in here or the colors don't match up.  Not sure why. -->
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="viz1.html">Max Temp (&deg;F)</a>
+                        <a class="dropdown-item" href="viz2.html">Humidity (&Phi;)</a>
+                        <a class="dropdown-item" href="viz3.html">Cloudiness (%)</a>
+<!--                         <a class="dropdown-item" href="viz4.html">Wind Speed</a> -->
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- Create the Grid -->
+<!-- There are only 3 vizualizations in the right sidebar because it is redundant to show the same graph 2x     -->
+    <div class="container">
+        <div class="row" style="margin-top:30px">
+            <div class="col-md-7" style="background-color:white; padding-right: 30px; margin-right: 10px; margin-top:5px">
+                <h1>Wind Speed (MPH)</h1>
+                <hr>
+                <img src="resources/images/fig4.png" alt="Latitude vs Wind Speed" class="img-fluid"  width=100%>
+                <p class="text-justify">The scatter plot shows that wind speeds of 15 mph or less are most common, at least on the date of the data retrieval. The distance from the equator does not appear to be a factor.</p>
+            </div>
+            <div class="col-md-4" style="background-color: white; margin-right: 10px; margin-top:5px; margin-bottom:140px">
+                <h2>Visualizations</h2>
+                <hr>
+                <a href="viz1.html"><img src="resources/images/fig1.png" alt="Latitude versus Temperature" style="width:160px;height:160px"></a>
+                <a href="viz2.html"><img src="resources/images/fig2.png" alt="Latitude versus Humidity" style="width:160px;height:160px; border:2px solid #000"></a>
+                <a href="viz3.html"><img src="resources/images/fig3.png" alt="Latitude verus Cloudiness" style="width:160px;height:160px"></a>
+<!--                 <a href="viz4.html"><img src="resources/images/fig4.png" alt="Latitude versus Wind Speed" style="width:160px;height:160px"></a> -->
+            </div>
+        </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

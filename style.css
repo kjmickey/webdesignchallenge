@@ -1,0 +1,105 @@
+/*
+body {
+	padding: 0;
+      margin: 0;
+      background-color: skyblue;
+}
+ */
+
+  body {
+      padding: 0;
+      margin: 0;
+      background: skyblue;
+  }
+
+  .navbar {
+      background: red
+  }
+
+  .nav-link,
+  .navbar-brand {
+      color: white;
+      cursor: pointer;
+  }
+
+  .nav-link {
+      font-size: 20px;
+      margin-right: 1em !important;
+  }
+
+  .navbar-brand:hover,
+  .nav-link:hover {
+      color: black;
+  }
+
+  .navbar-brand {
+      font-size: 40px;
+  }
+
+  .navbar-collapse {
+      justify-content: flex-end;
+  }
+
+  .container h1 {
+      color: red;
+      /* Put a 15-pixel margin at the top of all h1 headings. */
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .container h2 {
+      color: red;
+      /* Put a 15-pixel margin at the top of all h1 headings. */
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .container h3 {
+      color: red;
+      /* text alignment and font-size */
+      text-align: center;
+      font-size: 16pt;
+      /* Put a margin at the top of all h3 headings. */
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  hr {
+      /* resize and recolor the underline. Using the border instead of height apparently makes it behave better*/
+      height: 0px;
+      border: none;
+      border-top: 1px solid rgb(155, 154, 154);
+  }
+
+  @media screen and (max-width: 500px) {
+      body {
+          background: none;
+      }
+  }
+
+  .footnote {
+  	font-size: 10pt;
+  	font-style: italic;
+  }
+
+*/
+.skyblue {
+  background: deepskyblue;
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
+
+.white {
+  background: white;
+}
+
+
+.black {
+  background: black;
+}
