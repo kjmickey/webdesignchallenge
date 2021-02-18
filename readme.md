@@ -8,3 +8,4 @@ We will take data from a previous homework and use it to build a 7 page website.
 
 Requirements include using bootstrap for the nav-bar and grid layout, a css stylesheet to control the appearance and the ability to display the screen on different size screens.
 
+https://kjmickey.github.io/webdesignchallenge.github.io/index.html
